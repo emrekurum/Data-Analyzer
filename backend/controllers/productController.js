@@ -31,7 +31,7 @@ const addProduct = async (req, res) => {
 const getSalesData = async (req, res) => {
     try {
         const result = await client.query(`
-            SELECT category, SUM(price * quantity) AS total_sales
+            SELECT category, SUM(price * quantity) 
             FROM products
             GROUP BY category
         `);
