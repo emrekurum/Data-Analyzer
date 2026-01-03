@@ -25,7 +25,7 @@ Thank you for your interest in contributing to Data Analyzer! This document prov
 ### Frontend
 
 ```bash
-cd Frontend
+cd frontend
 npm install
 npm start
 ```
@@ -106,7 +106,7 @@ docs: update API documentation
 ### Frontend Tests
 
 ```bash
-cd Frontend
+cd frontend
 npm test
 ```
 
@@ -130,5 +130,5 @@ Please maintain the Clean Architecture structure:
 
 If you have questions, please open an issue with the `question` label.
 
-Thank you for contributing! 🎉
+Thank you for contributing!
 

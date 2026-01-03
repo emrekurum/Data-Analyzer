@@ -2,7 +2,7 @@
 
 A modern e-commerce data analysis application built with **Clean Architecture** principles, featuring a React Native (Expo) frontend and Node.js/Express backend with PostgreSQL database.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Features](#features)
 - [Architecture](#architecture)
@@ -18,7 +18,7 @@ A modern e-commerce data analysis application built with **Clean Architecture** 
 - [Contributing](#contributing)
 - [License](#license)
 
-## ✨ Features
+## Features
 
 - **Product Management**: Add products with name, price, quantity, and category
 - **Sales Analytics**: Visualize sales data by category using interactive charts
@@ -28,14 +28,14 @@ A modern e-commerce data analysis application built with **Clean Architecture** 
 - **RESTful API**: Well-designed backend API with proper error handling
 - **Database Integration**: PostgreSQL database with proper schema and indexes
 
-## 🏗️ Architecture
+## Architecture
 
 This project follows **Clean Architecture** principles, which separates the code into distinct layers:
 
 ### Frontend Architecture
 
 ```
-Frontend/
+frontend/
 ├── src/
 │   ├── domain/           # Business logic layer
 │   │   ├── entities/     # Domain entities (Product, SalesData)
@@ -76,7 +76,7 @@ Backend/
 
 This ensures that business logic is independent of frameworks and external dependencies.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React Native** (0.76.5) - Mobile framework
@@ -94,7 +94,7 @@ This ensures that business logic is independent of frameworks and external depen
 - **CORS** - Cross-origin resource sharing
 - **dotenv** - Environment configuration
 
-## 📦 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -108,7 +108,7 @@ For mobile development:
 - **iOS**: Xcode (macOS only)
 - **Android**: Android Studio
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -120,7 +120,7 @@ cd data-analyzer
 ### 2. Install Frontend Dependencies
 
 ```bash
-cd Frontend
+cd frontend
 npm install
 ```
 
@@ -131,7 +131,7 @@ cd ../backend
 npm install
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 ### Backend Configuration
 
@@ -160,7 +160,7 @@ PG_PORT=5432
 1. Copy the environment example file:
 
 ```bash
-cd Frontend
+cd frontend
 cp .env.example .env
 ```
 
@@ -177,7 +177,7 @@ API_URL=http://localhost:5000/api
 API_URL=http://192.168.1.100:5000/api
 ```
 
-## 🗄️ Database Setup
+## Database Setup
 
 ### 1. Create PostgreSQL Database
 
@@ -194,7 +194,7 @@ psql -U your_db_user -d your_database_name -f src/infrastructure/database/schema
 
 Or manually execute the SQL in `backend/src/infrastructure/database/schema.sql`.
 
-## 🏃 Running the Application
+## Running the Application
 
 ### Start the Backend Server
 
@@ -210,7 +210,7 @@ The server will start on `http://localhost:5000`
 ### Start the Frontend Application
 
 ```bash
-cd Frontend
+cd frontend
 npm start
 ```
 
@@ -224,16 +224,16 @@ This will start the Expo development server. You can then:
 ### Running on Physical Device
 
 1. Ensure your device and computer are on the same network
-2. Update `Frontend/.env` with your computer's IP address
+2. Update `frontend/.env` with your computer's IP address
 3. Update `backend/.env` if needed
 4. Start both servers
 5. Scan the QR code with Expo Go app
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 data-analyzer/
-├── Frontend/                 # React Native (Expo) frontend
+├── frontend/                 # React Native (Expo) frontend
 │   ├── src/
 │   │   ├── domain/          # Domain layer
 │   │   │   ├── entities/    # Product, SalesData entities
@@ -271,7 +271,7 @@ data-analyzer/
 └── LICENSE                  # MIT License
 ```
 
-## 📡 API Documentation
+## API Documentation
 
 ### Base URL
 
@@ -361,12 +361,12 @@ GET /api/get-sales-data
 }
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Frontend Tests
 
 ```bash
-cd Frontend
+cd frontend
 npm test
 ```
 
@@ -377,7 +377,7 @@ cd backend
 npm test
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -395,21 +395,21 @@ Contributions are welcome! Please follow these steps:
 - Add comments for complex logic
 - Follow Clean Architecture principles
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Clean Architecture principles by Robert C. Martin
 - Expo team for the amazing development platform
 - React Native community for excellent libraries
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions, please open an issue on the GitHub repository.
 
 ---
 
-**Made with ❤️ using Clean Architecture**
+**Built with Clean Architecture**
 

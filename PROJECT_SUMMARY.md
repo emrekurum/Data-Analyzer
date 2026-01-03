@@ -73,7 +73,7 @@ The Data Analyzer project has been successfully migrated from a simple React Nat
 
 ```
 data-analyzer/
-├── Frontend/              # Expo React Native app
+├── frontend/              # Expo React Native app
 │   ├── src/
 │   │   ├── domain/       # Business logic
 │   │   ├── data/         # Data access
