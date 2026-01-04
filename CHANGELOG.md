@@ -87,3 +87,4 @@ This version represents a major refactoring from a simple structure to Clean Arc
 4. Install new dependencies (npm install in both frontend and backend)
 5. Follow setup instructions in README.md
 
+

@@ -5,3 +5,4 @@ export interface IProductRepository {
   getSalesData(): Promise<SalesData[]>;
 }
 
+

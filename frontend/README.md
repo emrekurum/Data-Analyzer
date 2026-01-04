@@ -15,7 +15,7 @@ npm start
 ## Project Structure
 
 ```
-Frontend/
+frontend/
 ├── src/
 │   ├── domain/           # Business logic layer
 │   │   ├── entities/     # Domain entities

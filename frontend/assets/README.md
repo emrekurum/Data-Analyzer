@@ -27,3 +27,4 @@ For development, you can use placeholder images or create simple colored squares
 You can also use Expo's asset generation tools:
 - [Expo Asset Generator](https://docs.expo.dev/guides/app-icons/)
 
+

@@ -13,3 +13,4 @@ export interface SalesData {
   total_sales: number;
 }
 
+

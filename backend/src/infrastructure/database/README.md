@@ -42,3 +42,4 @@ The `products` table stores product information with the following structure:
 
 - Automatic `updated_at` timestamp update on record modification
 
+

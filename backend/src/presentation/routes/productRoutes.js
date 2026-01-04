@@ -9,3 +9,4 @@ router.get('/get-sales-data', productController.getSalesData);
 
 module.exports = router;
 
+
